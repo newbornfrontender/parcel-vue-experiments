@@ -1,0 +1,8 @@
+{
+  "name": "parcel-vue-experiments",
+  "version": "1.0.0",
+  "description": "Репозиторий для экспериментов с Vue и Parcel",
+  "repository": "https://github.com/newbornfrontender/parcel-vue-experiments.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT"
+}

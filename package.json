@@ -4,5 +4,8 @@
   "description": "Репозиторий для экспериментов с Vue и Parcel",
   "repository": "https://github.com/newbornfrontender/parcel-vue-experiments.git",
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.2"
+  }
 }

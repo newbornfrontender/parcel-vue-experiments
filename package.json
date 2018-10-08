@@ -5,6 +5,12 @@
   "repository": "https://github.com/newbornfrontender/parcel-vue-experiments.git",
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf ./{.cache,dist}/**",
+    "copy": "cp -rv ./public/** ./dist",
+    "serve": "parcel ./index.html",
+    "build": "parcel build ./index.html"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.10.2"
   }

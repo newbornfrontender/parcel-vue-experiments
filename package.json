@@ -12,6 +12,12 @@
     "build": "parcel build ./index.html"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.10.2"
+    "@vue/component-compiler-utils": "^2.2.0",
+    "parcel-bundler": "^1.10.2",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "dependencies": {
+    "vue": "^2.5.17",
+    "vue-hot-reload-api": "^2.3.1"
   }
 }

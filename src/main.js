@@ -1,14 +1,8 @@
 import Vue from 'vue';
 import App from './App';
-import Home from './views/Home.vue';
-import About from './views/About.vue';
+import routes from './routes';
 
 Vue.config.productionTip = false;
-
-const routes = {
-  '/': Home,
-  '/about': About,
-};
 
 const vm = new Vue({
   data: {

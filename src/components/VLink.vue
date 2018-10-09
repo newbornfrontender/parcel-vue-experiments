@@ -21,7 +21,7 @@
     computed: {
       isActive () {
         return this.href === this.$root.currentRoute;
-      }
+      },
     },
     methods: {
       go (event) {

@@ -1,21 +1,9 @@
-<template>
-  <section>
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <router-link to="/">Home</router-link>
-          </li>
-
-          <li>
-            <router-link to="/about">About</router-link>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      <router-view />
-    </main>
-  </section>
-</template>
+<script>
+  export default {
+    render (h) { return h(
+      'main', [
+        this.$slots.default,
+      ],
+    )},
+  };
+</script>

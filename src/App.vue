@@ -1,17 +1,7 @@
 <template>
   <section>
     <header>
-      <nav>
-        <ul>
-          <li>
-            <v-link href="/">Home</v-link>
-          </li>
-
-          <li>
-            <v-link href="/about">About</v-link>
-          </li>
-        </ul>
-      </nav>
+      <v-nav />
     </header>
 
     <main>
@@ -23,11 +13,13 @@
 </template>
 
 <script>
-  import VLink from './components/VLink.vue';
+  import VNav from './components/VNav.vue';
 
   export default {
+    name: 'App',
+
     components: {
-      VLink,
+      VNav,
     },
   };
 </script>
